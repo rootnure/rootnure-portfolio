@@ -10,15 +10,15 @@ const Experiences = () => {
       <SectionTitle>Experiences</SectionTitle>
       <div className="space-y-6">
         {/* Programming Hero (Batch 8) */}
-        <div className="flex items-center gap-12 p-4 border rounded-xl border-white group hover:border-orange-500">
-          <figure className="w-[500px]">
+        <div className="flex items-center flex-col lg:flex-row gap-12 p-4 border rounded-xl border-white group hover:border-orange-500">
+          <figure className="lg:w-[500px]">
             <img
               src={imgExp1}
               alt="Complete Web Development Course With Jhankar Mahbub"
               className="w-[500px] h-[300px] object-cover rounded-lg group-hover:-rotate-1 group-hover:skew-x-1 group-hover:skew-y-1 group-hover:scale-[95%] duration-150"
             />
           </figure>
-          <div className="space-y-6 flex-1 text-right">
+          <div className="space-y-6 flex-1 text-center lg:text-right">
             <a
               href="https://web.programming-hero.com/home"
               className="hover:underline">
@@ -39,7 +39,7 @@ const Experiences = () => {
           </div>
         </div>
         {/* Udemy HTML and CSS */}
-        <div className="flex flex-row-reverse items-center gap-12 p-4 border rounded-xl border-white group hover:border-orange-500">
+        <div className="flex flex-col lg:flex-row-reverse items-center gap-12 p-4 border rounded-xl border-white group hover:border-orange-500">
           <figure className="w-[500px]">
             <img
               src={imgExp2}
@@ -47,7 +47,7 @@ const Experiences = () => {
               className="w-[500px] h-[300px] object-cover rounded-lg group-hover:rotate-1 group-hover:-skew-x-1 group-hover:-skew-y-1 group-hover:scale-[95%] duration-150"
             />
           </figure>
-          <div className="space-y-4 flex-1">
+          <div className="space-y-4 flex-1 text-center lg:text-left">
             <a
               href="https://www.udemy.com/course/master-html-and-css-by-building-real-world-projects/"
               className="hover:underline">
@@ -81,7 +81,7 @@ const Experiences = () => {
           </div>
         </div>
         {/* Udemy Git and GitHub */}
-        <div className="flex items-center gap-22 p-4 border rounded-xl border-white group hover:border-orange-500">
+        <div className="flex flex-col lg:flex-row items-center gap-22 p-4 border rounded-xl border-white group hover:border-orange-500">
           <figure className="w-[500px]">
             <img
               src={imgExp3}
@@ -89,7 +89,7 @@ const Experiences = () => {
               className="w-[500px] h-[300px] object-cover rounded-lg group-hover:-rotate-1 group-hover:skew-x-1 group-hover:skew-y-1 group-hover:scale-[95%] duration-150"
             />
           </figure>
-          <div className="space-y-4 flex-1 text-right">
+          <div className="space-y-4 flex-1 text-center lg:text-right mt-6 lg:mt-0">
             <a
               href="https://www.udemy.com/course/git-and-github-for-absolute-beginners/"
               className="hover:underline">

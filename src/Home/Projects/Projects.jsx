@@ -99,7 +99,7 @@ const Projects = () => {
             </div>
           </Carousel>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 text-center lg:text-left">
           <h2 className="text-3xl font-semibold">1. Niye Jai Dot Com</h2>
           <p>
             Parcel Management App (
@@ -128,7 +128,7 @@ const Projects = () => {
               <li>JWT used with LocalStorage for authentication</li>
             </ul>
           </div>
-          <div className="flex gap-4 text-white font-bold">
+          <div className="flex justify-center lg:justify-start gap-4 text-white font-bold">
             <a
               href="https://niye-jai.web.app/"
               target="_blank"
@@ -158,7 +158,7 @@ const Projects = () => {
       </div>
       {/* foodbuzz */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-16">
-        <div className="order-2">
+        <div className="lg:order-2">
           {/* images */}
           <Carousel autoPlay interval={2500} infiniteLoop>
             <div>
@@ -205,7 +205,7 @@ const Projects = () => {
             </div>
           </Carousel>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 text-center lg:text-left">
           <h2 className="text-3xl font-semibold">2. Foodbuzz</h2>
           <p>
             Restaurant Management Website (

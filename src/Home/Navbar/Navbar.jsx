@@ -12,12 +12,12 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 bg-gray-100 bg-opacity-40 backdrop-blur-3xl shadow z-[1000]">
       <Container>
-        <nav className="flex justify-between items-center py-2">
+        <nav className="flex justify-between items-center flex-col md:flex-row gap-y-4 py-2">
           <Logo />
-          <div className="flex gap-8">
+          <div className="grid grid-cols-3 lg:grid-cols-6 gap-6 flex-wrap justify-center">
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
@@ -27,7 +27,7 @@ const Navbar = () => {
             </ScrollLink>
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
@@ -37,7 +37,7 @@ const Navbar = () => {
             </ScrollLink>
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
@@ -47,7 +47,7 @@ const Navbar = () => {
             </ScrollLink>
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
@@ -57,7 +57,7 @@ const Navbar = () => {
             </ScrollLink>
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
@@ -67,7 +67,7 @@ const Navbar = () => {
             </ScrollLink>
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
