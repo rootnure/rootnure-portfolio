@@ -13,7 +13,9 @@ const Banner = () => {
           <h2 className="text-7xl font-medium leading-snug">
             I am,
             <br />
-            <span className="font-bold text-orange-500">Md Nure Alom</span>
+            <span className="font-bold bg-gradient-to-r text-transparent w-fit bg-clip-text from-orange-500 to-orange-600">
+              Md Nure Alom
+            </span>
           </h2>
           <h2 className="text-4xl font-bold bg-gradient-to-r from-green-500 via-red-500 to-blue-500 text-transparent bg-clip-text w-fit">
             Jr. MERN Stack Web Developer

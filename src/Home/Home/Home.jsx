@@ -1,5 +1,6 @@
 import Container from "../../components/Container";
 import Banner from "../Banner/Banner";
+import Experiences from "../Experiences/Experiences";
 import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
@@ -10,9 +11,7 @@ const Home = () => {
       </header>
       <Container className="text-slate-700">
         <Banner />
-        <div id="#experience" name="experience" className="h-[1000px]">
-          exp
-        </div>
+        <Experiences />
         <div id="#projects" name="projects" className="h-[1000px]">
           proj
         </div>
