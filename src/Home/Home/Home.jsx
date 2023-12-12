@@ -21,7 +21,6 @@ const Home = () => {
         <Education />
         <Contact />
       </Container>
-      <footer>footer</footer>
     </div>
   );
 };

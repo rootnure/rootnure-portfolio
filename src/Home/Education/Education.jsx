@@ -50,7 +50,7 @@ const Education = () => {
               target="_blank"
               rel="noreferrer">
               <h2 className="text-4xl font-semibold">
-                Higher School Certificate (H.S.C)
+                Higher Secondary Certificate (H.S.C)
               </h2>
             </a>
             <h3 className="text-2xl font-medium text-gray-500">
