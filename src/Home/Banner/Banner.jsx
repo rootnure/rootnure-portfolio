@@ -5,9 +5,9 @@ import { FaDownload } from "react-icons/fa6";
 const Banner = () => {
   return (
     <section
-      className="py-12 grid grid-cols-2 items-center gap-6 mt-12"
+      className="py-12 grid grid-cols-1 lg:grid-cols-2 items-center gap-6 mt-48 lg:mt-12 h-1/2 lg:min-h-screen"
       name="top">
-      <div className="">
+      <div className="text-center lg:text-left flex flex-col lg:flex-none items-center lg:items-start">
         <p className="text-orange-500 text-xl font-semibold">Hello,</p>
         <div className="space-y-4">
           <h2 className="text-7xl font-medium leading-snug">

@@ -3,20 +3,21 @@ import Logo from "../../components/Logo";
 import Container from "../../components/Container";
 import "./Navbar.css";
 import { useEffect } from "react";
+import resume from "../../assets/files/resume.txt";
 
 const Navbar = () => {
   useEffect(() => {
     scrollSpy.update();
   }, []);
   return (
-    <div className="fixed top-0 left-0 right-0 bg-gray-100 bg-opacity-40 backdrop-blur-xl shadow z-[1000]">
+    <div className="fixed top-0 left-0 right-0 bg-gray-100 bg-opacity-40 backdrop-blur-3xl shadow z-[1000]">
       <Container>
-        <nav className="flex justify-between items-center py-2">
+        <nav className="flex justify-between items-center flex-col md:flex-row gap-y-4 py-2">
           <Logo />
-          <div className="flex gap-8">
+          <div className="grid grid-cols-3 lg:grid-cols-6 gap-6 flex-wrap justify-center">
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
@@ -26,7 +27,17 @@ const Navbar = () => {
             </ScrollLink>
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-96}
+              to="skills">
+              Skills
+            </ScrollLink>
+            <ScrollLink
+              activeClass="active"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
@@ -36,7 +47,7 @@ const Navbar = () => {
             </ScrollLink>
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
@@ -46,7 +57,7 @@ const Navbar = () => {
             </ScrollLink>
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
@@ -56,7 +67,7 @@ const Navbar = () => {
             </ScrollLink>
             <ScrollLink
               activeClass="active"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer whitespace-nowrap"
               spy={true}
               smooth={true}
               duration={500}
@@ -64,17 +75,12 @@ const Navbar = () => {
               to="contact">
               Contact Me
             </ScrollLink>
-            <ScrollLink
-              activeClass="active"
-              className="hover:cursor-pointer"
-              spy={true}
-              smooth={true}
-              duration={500}
-              offset={-96}
-              to="resume">
-              Resume
-            </ScrollLink>
           </div>
+          <a href={resume} download>
+            <button className="bg-orange-500 px-4 py-2 border-2 border-orange-500 rounded-lg text-white font-semibold hover:bg-white hover:text-orange-500 duration-150 flex items-center gap-2">
+              Download Resume
+            </button>
+          </a>
         </nav>
       </Container>
     </div>

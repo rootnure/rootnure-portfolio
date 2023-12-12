@@ -1,31 +1,26 @@
 import Container from "../../components/Container";
 import Banner from "../Banner/Banner";
+import Contact from "../Contact/Contact";
+import Education from "../Education/Education";
 import Experiences from "../Experiences/Experiences";
 import Navbar from "../Navbar/Navbar";
+import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
 
 const Home = () => {
   return (
-    <div className="font-poppins">
+    <div className="font-poppins text-slate-700">
       <header>
         <Navbar />
       </header>
-      <Container className="text-slate-700">
+      <Container>
         <Banner />
+        <Skills />
         <Experiences />
-        <div id="#projects" name="projects" className="h-[1000px]">
-          proj
-        </div>
-        <div id="#education" name="education" className="h-[1000px]">
-          edu
-        </div>
-        <div id="#contact" name="contact" className="h-[1000px]">
-          cont
-        </div>
-        <div id="#resume" name="resume" className="h-[1000px]">
-          resume
-        </div>
+        <Projects />
+        <Education />
+        <Contact />
       </Container>
-      <footer>footer</footer>
     </div>
   );
 };
