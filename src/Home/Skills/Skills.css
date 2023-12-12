@@ -1,0 +1,3 @@
+meter::-webkit-meter-optimum-value {
+    @apply bg-orange-500;
+}

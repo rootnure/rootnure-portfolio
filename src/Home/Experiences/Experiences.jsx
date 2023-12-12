@@ -10,7 +10,7 @@ const Experiences = () => {
       <SectionTitle>Experiences</SectionTitle>
       <div className="space-y-6">
         {/* Programming Hero (Batch 8) */}
-        <div className="flex items-center gap-12 p-4 border rounded-xl group hover:border-orange-500">
+        <div className="flex items-center gap-12 p-4 border rounded-xl border-white group hover:border-orange-500">
           <figure className="w-[500px]">
             <img
               src={imgExp1}
@@ -39,7 +39,7 @@ const Experiences = () => {
           </div>
         </div>
         {/* Udemy HTML and CSS */}
-        <div className="flex flex-row-reverse items-center gap-12 p-4 border rounded-xl group hover:border-orange-500">
+        <div className="flex flex-row-reverse items-center gap-12 p-4 border rounded-xl border-white group hover:border-orange-500">
           <figure className="w-[500px]">
             <img
               src={imgExp2}
@@ -81,7 +81,7 @@ const Experiences = () => {
           </div>
         </div>
         {/* Udemy Git and GitHub */}
-        <div className="flex items-center gap-22 p-4 border rounded-xl group hover:border-orange-500">
+        <div className="flex items-center gap-22 p-4 border rounded-xl border-white group hover:border-orange-500">
           <figure className="w-[500px]">
             <img
               src={imgExp3}
