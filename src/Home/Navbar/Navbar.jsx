@@ -14,7 +14,7 @@ const Navbar = () => {
       <Container>
         <nav className="flex justify-between items-center flex-col md:flex-row gap-y-4 py-2">
           <Logo />
-          <div className="grid grid-cols-3 lg:grid-cols-6 gap-6 flex-wrap justify-center">
+          <div className="grid grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-3 justify-center text-center">
             <ScrollLink
               activeClass="active"
               className="hover:cursor-pointer whitespace-nowrap"
@@ -76,7 +76,7 @@ const Navbar = () => {
               Contact Me
             </ScrollLink>
           </div>
-          <a href={resume} download>
+          <a href={resume} download className="hidden md:inline">
             <button className="bg-orange-500 px-4 py-2 border-2 border-orange-500 rounded-lg text-white font-semibold hover:bg-white hover:text-orange-500 duration-150 flex items-center gap-2">
               Download Resume
             </button>

@@ -24,10 +24,10 @@ import project2img7 from "../../assets/projectsSS/Foodbuzz/07.png";
 
 const Projects = () => {
   return (
-    <section className="my-24" name="projects">
+    <section className="" name="projects">
       <SectionTitle>Projects</SectionTitle>
       {/* niyejai dot com */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           {/* images */}
           <Carousel autoPlay interval={2500} infiniteLoop>
@@ -100,7 +100,12 @@ const Projects = () => {
           </Carousel>
         </div>
         <div className="space-y-4 text-center lg:text-left">
-          <h2 className="text-3xl font-semibold">1. Niye Jai Dot Com</h2>
+          <h2 className="text-3xl font-semibold">
+            <span className="font-pacifico">1.</span>{" "}
+            <span className="bg-gradient-to-r text-transparent w-fit bg-clip-text from-orange-400 to-orange-600 whitespace-nowrap">
+              Niye Jai Dot Com
+            </span>
+          </h2>
           <p>
             Parcel Management App (
             <span className="font-semibold">
@@ -128,12 +133,12 @@ const Projects = () => {
               <li>JWT used with LocalStorage for authentication</li>
             </ul>
           </div>
-          <div className="flex justify-center lg:justify-start gap-4 text-white font-bold">
+          <div className="flex justify-center lg:justify-start gap-2 text-white font-bold">
             <a
               href="https://niye-jai.web.app/"
               target="_blank"
               rel="noreferrer">
-              <button className="px-4 py-2 bg-orange-500 rounded-xl hover:bg-orange-600 duration-75">
+              <button className="px-4 py-2 bg-orange-500 rounded-lg hover:bg-orange-600 duration-75">
                 Live Link
               </button>
             </a>
@@ -141,7 +146,7 @@ const Projects = () => {
               href="https://github.com/rootnure/niye-jai-dot-com-client-72"
               target="_blank"
               rel="noreferrer">
-              <button className="px-4 py-2 bg-orange-500 rounded-xl hover:bg-orange-600 duration-75">
+              <button className="px-4 py-2 bg-orange-500 rounded-lg hover:bg-orange-600 duration-75">
                 Client Side
               </button>
             </a>
@@ -149,7 +154,7 @@ const Projects = () => {
               href="https://github.com/rootnure/niye-jai-dot-com-server-72"
               target="_blank"
               rel="noreferrer">
-              <button className="px-4 py-2 bg-orange-500 rounded-xl hover:bg-orange-600 duration-75">
+              <button className="px-4 py-2 bg-orange-500 rounded-lg hover:bg-orange-600 duration-75">
                 Server Side
               </button>
             </a>
@@ -206,7 +211,12 @@ const Projects = () => {
           </Carousel>
         </div>
         <div className="space-y-4 text-center lg:text-left">
-          <h2 className="text-3xl font-semibold">2. Foodbuzz</h2>
+          <h2 className="text-3xl font-semibold">
+            <span className="font-pacifico">2.</span>{" "}
+            <span className="bg-gradient-to-r text-transparent w-fit bg-clip-text from-orange-400 to-orange-600 whitespace-nowrap">
+              Foodbuzz
+            </span>
+          </h2>
           <p>
             Restaurant Management Website (
             <span className="font-semibold">

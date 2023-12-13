@@ -40,11 +40,13 @@ const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {skillsIKnow.map(({ name, value }) => (
             <div key={name} className="grid grid-cols-12 items-center gap-6">
-              <h3 className="text-xl font-bold col-span-3 text-center">
+              <h3 className="text-base md:text-lg lg:text-xl font-medium md:font-bold col-span-3 text-center">
                 {name}
               </h3>
               <meter value={value / 100} className="w-full col-span-7" />
-              <p className="col-span-2">{value}/100</p>
+              <p className="col-span-2 text-xs md:text-sm lg:text-base">
+                {value}/100
+              </p>
             </div>
           ))}
         </div>
@@ -54,11 +56,13 @@ const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {skillsFamiliarWith.map(({ name, value }) => (
             <div key={name} className="grid grid-cols-12 items-center gap-6">
-              <h3 className="text-xl font-bold col-span-3 text-center">
+              <h3 className="text-base md:text-lg lg:text-xl font-medium md:font-bold col-span-3 text-center">
                 {name}
               </h3>
               <meter value={value / 100} className="w-full col-span-7" />
-              <p className="col-span-2">{value}/100</p>
+              <p className="col-span-2 text-xs md:text-sm lg:text-base">
+                {value}/100
+              </p>
             </div>
           ))}
         </div>
@@ -68,11 +72,13 @@ const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {skillsTools.map(({ name, value }) => (
             <div key={name} className="grid grid-cols-12 items-center gap-6">
-              <h3 className="text-xl font-bold col-span-3 text-center">
+              <h3 className="text-base md:text-lg lg:text-xl font-medium md:font-bold col-span-3 text-center">
                 {name}
               </h3>
               <meter value={value / 100} className="w-full col-span-7" />
-              <p className="col-span-2">{value}/100</p>
+              <p className="col-span-2 text-xs md:text-sm lg:text-base">
+                {value}/100
+              </p>
             </div>
           ))}
         </div>

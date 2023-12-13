@@ -1,11 +1,12 @@
+import { toast } from "react-toastify";
 import SectionTitle from "../../components/SectionTitle";
 import { useForm } from "@formspree/react";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xvojeyvv");
-  state.succeeded && alert("Form Submitted. Will be in touch soon");
+  state.succeeded && toast.success("Form Submitted. Will be in touch soon");
   return (
-    <section className="my-24" name="contact">
+    <section className="" name="contact">
       <SectionTitle>Contact Me</SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-5 items-center gap-12">
         <div className="w-full text-center space-y-4 text-xl md:col-span-2">
