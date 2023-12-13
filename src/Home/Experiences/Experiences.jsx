@@ -6,30 +6,30 @@ import checkmark from "../../assets/photos/blue-check-mark.png";
 
 const Experiences = () => {
   return (
-    <section className="my-12" name="experiences">
+    <section className="" name="experiences">
       <SectionTitle>Experiences</SectionTitle>
       <div className="space-y-6">
         {/* Programming Hero (Batch 8) */}
-        <div className="flex items-center flex-col lg:flex-row gap-12 p-4 border rounded-xl border-white group hover:border-orange-500">
-          <figure className="lg:w-[500px]">
+        <div className="flex items-center flex-col lg:flex-row gap-x-12 gap-y-6 px-6 border-2 rounded-xl border-white group hover:border-orange-500">
+          <figure className="lg:w-[500px] h-[300px] py-4">
             <img
               src={imgExp1}
               alt="Complete Web Development Course With Jhankar Mahbub"
-              className="w-[500px] h-[300px] object-cover rounded-lg group-hover:-rotate-1 group-hover:skew-x-1 group-hover:skew-y-1 group-hover:scale-[95%] duration-150"
+              className="min-w-full min-h-full object-cover rounded-lg group-hover:-rotate-1 group-hover:skew-x-1 group-hover:skew-y-1 group-hover:scale-[95%] duration-150"
             />
           </figure>
           <div className="space-y-6 flex-1 text-center lg:text-right">
             <a
               href="https://web.programming-hero.com/home"
               className="hover:underline">
-              <h2 className="text-4xl font-semibold">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
                 Complete Web Development Course
               </h2>
             </a>
-            <h3 className="text-2xl font-medium text-gray-500">
+            <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-gray-500">
               Programming Hero / 2023 - Present
             </h3>
-            <p>
+            <p className="text-sm md:text-base">
               This Course Is Created For Those Who Want To Learn Web Development
               From Scratch And Build A Career As A Web Developer In Software
               Companies. Even Those Who Studied CSE For Four Years But
@@ -39,31 +39,33 @@ const Experiences = () => {
           </div>
         </div>
         {/* Udemy HTML and CSS */}
-        <div className="flex flex-col lg:flex-row-reverse items-center gap-12 p-4 border rounded-xl border-white group hover:border-orange-500">
-          <figure className="w-[500px]">
+        <div className="flex flex-col lg:flex-row-reverse items-center gap-x-12 gap-y-6 px-6 border-2 rounded-xl border-white group hover:border-orange-500">
+          <figure className="lg:w-[500px] h-[300px] py-4">
             <img
               src={imgExp2}
               alt="Master HTML and CSS by building real world projects"
-              className="w-[500px] h-[300px] object-cover rounded-lg group-hover:rotate-1 group-hover:-skew-x-1 group-hover:-skew-y-1 group-hover:scale-[95%] duration-150"
+              className="min-w-full min-h-full object-cover rounded-lg group-hover:rotate-1 group-hover:-skew-x-1 group-hover:-skew-y-1 group-hover:scale-[95%] duration-150"
             />
           </figure>
           <div className="space-y-4 flex-1 text-center lg:text-left">
             <a
               href="https://www.udemy.com/course/master-html-and-css-by-building-real-world-projects/"
               className="hover:underline">
-              <h2 className="text-4xl font-semibold">Master HTML and CSS</h2>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
+                Master HTML and CSS
+              </h2>
             </a>
-            <h3 className="text-2xl font-medium text-gray-500">
+            <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-gray-500">
               Udemy (Anisul Islam) / 2023
             </h3>
-            <p>
+            <p className="text-sm md:text-base">
               Learn css, flex, grid, web accessibility, responsiveness, BEM
               architecture, animation by building e-commerce project
             </p>
-            <ul className="text-sm space-y-1">
+            <ul className="text-xs md:text-sm flex flex-col items-start">
               <li className="flex items-center gap-2">
                 <img src={checkmark} alt="" className="h-3" />
-                Design real-world and responsive websites
+                Advanced CSS including Specificity calculation, BEM Architecture
               </li>
               <li className="flex items-center gap-2">
                 <img src={checkmark} alt="" className="h-3" />
@@ -75,48 +77,50 @@ const Experiences = () => {
               </li>
               <li className="flex items-center gap-2">
                 <img src={checkmark} alt="" className="h-3" />
-                Advanced CSS including Specificity calculation, BEM Architecture
+                Design real-world and responsive websites
               </li>
             </ul>
           </div>
         </div>
         {/* Udemy Git and GitHub */}
-        <div className="flex flex-col lg:flex-row items-center gap-22 p-4 border rounded-xl border-white group hover:border-orange-500">
-          <figure className="w-[500px]">
+        <div className="flex flex-col lg:flex-row items-center gap-x-12 gap-y-6 px-6 border-2 rounded-xl border-white group hover:border-orange-500">
+          <figure className="lg:w-[500px] h-[300px] py-4">
             <img
               src={imgExp3}
               alt="Master Git and Github - Beginner to Expert"
-              className="w-[500px] h-[300px] object-cover rounded-lg group-hover:-rotate-1 group-hover:skew-x-1 group-hover:skew-y-1 group-hover:scale-[95%] duration-150"
+              className="min-w-full min-h-full object-cover rounded-lg group-hover:-rotate-1 group-hover:skew-x-1 group-hover:skew-y-1 group-hover:scale-[95%] duration-150"
             />
           </figure>
-          <div className="space-y-4 flex-1 text-center lg:text-right mt-6 lg:mt-0">
+          <div className="space-y-4 flex-1 text-center lg:text-right">
             <a
               href="https://www.udemy.com/course/git-and-github-for-absolute-beginners/"
               className="hover:underline">
-              <h2 className="text-4xl font-semibold">Master Git and Github</h2>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
+                Master Git and Github
+              </h2>
             </a>
-            <h3 className="text-2xl font-medium text-gray-500">
+            <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-gray-500">
               Udemy (Anisul Islam) / 2023
             </h3>
-            <p>
+            <p className="text-sm md:text-base">
               Learn git configuration, commit, branching, merging, contributing
               and collaboration with other&apos;s project
             </p>
-            <ul className="text-sm flex flex-col items-end space-y-1">
-              <li className="flex items-center gap-2">
+            <ul className="text-xs md:text-sm flex flex-col items-start md:items-end space-y-1">
+              <li className="flex flex-row-reverse md:flex-row items-center gap-2">
                 Git overall work flow including staging, upstaging, committing
                 etc.
                 <img src={checkmark} alt="" className="h-3" />
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex flex-row-reverse md:flex-row items-center gap-2">
                 How to work with local and remote repositories - push, pull
                 <img src={checkmark} alt="" className="h-3" />
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex flex-row-reverse md:flex-row items-center gap-2">
                 How to Contribute to other&apos;s project - fork, clone
                 <img src={checkmark} alt="" className="h-3" />
               </li>
-              <li className="flex items-center gap-2">
+              <li className="flex flex-row-reverse md:flex-row items-center gap-2">
                 How to branching in Git and GitHub
                 <img src={checkmark} alt="" className="h-3" />
               </li>
