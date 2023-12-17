@@ -3,7 +3,7 @@ import Logo from "../../components/Logo";
 import Container from "../../components/Container";
 import "./Navbar.css";
 import { useEffect } from "react";
-import resume from "../../assets/files/resume.txt";
+import resume from "../../assets/files/Md Nure Alom's Resume - 8.pdf";
 
 const Navbar = () => {
   useEffect(() => {

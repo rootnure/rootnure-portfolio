@@ -1,5 +1,5 @@
 import bannerImg from "../../assets/photos/rootnure.png";
-import resume from "../../assets/files/resume.txt";
+import resume from "../../assets/files/Md Nure Alom's Resume - 8.pdf";
 import { FaDownload } from "react-icons/fa6";
 
 const Banner = () => {
@@ -14,7 +14,7 @@ const Banner = () => {
         <div className="space-y-4">
           <h2 className="text-5xl md:text-7xl font-medium">
             <span className="inline-block mt-2 mb-4">I am,</span> <br />
-            <span className="font-bold bg-gradient-to-r text-transparent w-fit bg-clip-text from-orange-500 to-orange-600 whitespace-nowrap">
+            <span className="font-bold bg-gradient-to-r text-transparent w-fit bg-clip-text from-orange-500 to-orange-600 whitespace-nowrap tracking-wider">
               Md Nure Alom
             </span>
           </h2>
