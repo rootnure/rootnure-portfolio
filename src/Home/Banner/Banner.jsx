@@ -1,6 +1,6 @@
 import bannerImg from "../../assets/photos/rootnure.png";
-import resume from "../../assets/files/Md Nure Alom's Resume - 8.pdf";
-import { FaDownload } from "react-icons/fa6";
+// import resume from "../../assets/files/Md Nure Alom's Resume - 8.pdf";
+// import { FaDownload } from "react-icons/fa6";
 
 const Banner = () => {
   return (
@@ -22,9 +22,12 @@ const Banner = () => {
             Jr. MERN Stack Web Developer
           </h2>
         </div>
-        <a href={resume} download>
+        <a
+          href="https://drive.google.com/file/d/1DIPZEC_fGN1nHHo39WERtq-nxO6S_SYn/view?usp=drive_link"
+          target="_blank"
+          rel="noreferrer">
           <button className="bg-orange-500 px-4 py-2 border rounded-lg text-lg md:text-2xl border-orange-300 text-white font-semibold mt-8 hover:bg-orange-600 duration-150 flex items-center gap-2">
-            Resume <FaDownload />
+            Resume
           </button>
         </a>
       </div>

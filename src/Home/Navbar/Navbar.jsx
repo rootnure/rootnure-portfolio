@@ -3,7 +3,7 @@ import Logo from "../../components/Logo";
 import Container from "../../components/Container";
 import "./Navbar.css";
 import { useEffect } from "react";
-import resume from "../../assets/files/Md Nure Alom's Resume - 8.pdf";
+// import resume from "../../assets/files/Md Nure Alom's Resume - 8.pdf";
 
 const Navbar = () => {
   useEffect(() => {
@@ -76,9 +76,13 @@ const Navbar = () => {
               Contact Me
             </ScrollLink>
           </div>
-          <a href={resume} download className="hidden md:inline">
+          <a
+            href="https://drive.google.com/file/d/1DIPZEC_fGN1nHHo39WERtq-nxO6S_SYn/view?usp=drive_link"
+            rel="noreferrer"
+            target="_blank"
+            className="hidden md:inline">
             <button className="bg-orange-500 px-4 py-2 border-2 border-orange-500 rounded-lg text-white font-semibold hover:bg-white hover:text-orange-500 duration-150 flex items-center gap-2">
-              Download Resume
+              Resume
             </button>
           </a>
         </nav>
