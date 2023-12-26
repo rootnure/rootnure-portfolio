@@ -13,15 +13,15 @@ const Skills = () => {
     { name: "MongoDB", value: 75 },
     { name: "Node.Js", value: 60 },
   ];
-  const skillsFamiliarWith = [
-    { name: "PHP", value: 60 },
-    { name: "Python", value: 45 },
-    { name: "Java", value: 50 },
-    { name: "jQuery", value: 60 },
-    { name: "Bootstrap", value: 70 },
-    { name: "MySQL", value: 60 },
-    { name: "C", value: 80 },
-  ];
+  // const skillsFamiliarWith = [
+  //   { name: "PHP", value: 60 },
+  //   { name: "Python", value: 45 },
+  //   { name: "Java", value: 50 },
+  //   { name: "jQuery", value: 60 },
+  //   { name: "Bootstrap", value: 70 },
+  //   { name: "MySQL", value: 60 },
+  //   { name: "C", value: 80 },
+  // ];
   const skillsTools = [
     { name: "VS Code", value: 85 },
     { name: "Git", value: 75 },
@@ -50,7 +50,7 @@ const Skills = () => {
             </div>
           ))}
         </div>
-        <h3 className="text-3xl mt-6 py-12 font-medium text-center">
+        {/* <h3 className="text-3xl mt-6 py-12 font-medium text-center">
           ---Technologies I Am Familiar With---
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -65,7 +65,7 @@ const Skills = () => {
               </p>
             </div>
           ))}
-        </div>
+        </div> */}
         <h3 className="text-3xl mt-6 py-12 font-medium text-center">
           ---Software and Tools---
         </h3>

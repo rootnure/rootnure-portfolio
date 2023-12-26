@@ -1,6 +1,7 @@
 import { toast } from "react-toastify";
 import SectionTitle from "../../components/SectionTitle";
 import { useForm } from "@formspree/react";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xvojeyvv");
@@ -22,6 +23,23 @@ const Contact = () => {
             Phone: <a href="tel:+8801792471014">+880 1792-471014</a>
           </p>
           <p>Address: Savar, Dhaka</p>
+          <p className="w-fit flex mx-auto gap-2 text-black">
+            <a
+              className="text-2xl hover:text-amber-500 duration-150"
+              href="https://www.facebook.com/rootnure/">
+              <FaFacebook />
+            </a>
+            <a
+              className="text-2xl hover:text-amber-500 duration-150"
+              href="https://www.linkedin.com/in/rootnure0/">
+              <FaLinkedin />
+            </a>
+            <a
+              className="text-2xl hover:text-amber-500 duration-150"
+              href="https://www.github.com/rootnure/">
+              <FaGithub />
+            </a>
+          </p>
         </div>
         <div className="bg-orange-200 rounded-lg md:col-span-3">
           <form onSubmit={handleSubmit} className="p-6 space-y-3">
